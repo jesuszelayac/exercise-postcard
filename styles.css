@@ -1,5 +1,5 @@
 * {
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
 	min-height: 10px;
 }
 
@@ -16,6 +16,7 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding: 3px;
 }
 
 .postcard-header img {
@@ -44,7 +45,10 @@ body {
 
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: 2px solid grey;
+	outline: none;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .postcard-footer {
@@ -52,7 +56,7 @@ input {
 }
 
 button {
-	background-color: grey;
+	background-color: rgb(172, 170, 170);
 	padding: 10px;
 	border: none;
 	color: black;
